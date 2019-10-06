@@ -25,9 +25,8 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-	 <link rel="stylesheet" href="css/stylemenutab.css">
-	 <link rel="stylesheet" href="css/tables.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tables.css">
   </head>
   <body>
     <div class="py-1 bg-black top">
@@ -61,342 +60,300 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item"><a href="index.html" class="nav-link">Home & About</a></li>
-	        	<li class="nav-item active"><a href="blog.html" class="nav-link">Group Diary</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Project</a></li>
-	          <li class="nav-item cta"><a href="reservation.html" class="nav-link">Add member now!</a></li>
+	        	
+	        	<li class="nav-item active"><a href="groupdiary.html" class="nav-link">Group Diary</a></li>
+	        	<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
+	          
+	          <li class="nav-item cta"><a href="#" class="nav-link">Add member now!</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpeg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate text-center mb-4">
             <h1 class="mb-2 bread">Group Diary</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.html">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single<i class="ion-ios-arrow-forward"></i></span></p>
+          
           </div>
         </div>
       </div>
     </section>
-		
+
+
 		<section class="ftco-section">
-			<div class="container">
-				<div class="row">
-          <div class="col-lg-8 ftco-animate">
-		  <p>Please you click to the one of the tab on menu below to view content:</p>
-            <div class="mb-3" id="menuexcersice">
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Week 1')">Week 1</button>
-  <button class="tablinks" onclick="openCity(event, 'Week 2')">Week 2</button>
-  <button class="tablinks" onclick="openCity(event, 'Week 3')">Week 3</button>
-  <button class="tablinks" onclick="openCity(event, 'Week 4')">Week 4</button>
-  <button class="tablinks" onclick="openCity(event, 'Week 5')">Week 5</button>
-  <button class="tablinks" onclick="openCity(event, 'Week 6')">Week 6</button>
-  
-</div>
+    	<div class="container">
+        <div class="ftco-search">
+					<div class="row">
+            <div class="col-md-12 nav-link-wrap">
+	            <div class="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+	              <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Week 1</a>
 
-<div id="Week 1" class="tabcontent">
-<!-- Bang -->
-<p style="text-align:center;"> Writting how to use Github</p>
-<table style="width:100%">
-  <tr style="font-size:15px;color:white;background-color: rgb(185, 169, 124);text-align:center;">
-    <th>STT</th>
-    <th>MSSV</th>
-	<th>Họ tên</th>
-    <th>Công việc được giao</th>
-	<th>Kết quả</th>
-	<th>Tiến độ</th>
-  </tr>
-  <tr style="font-size:12px;">
-    <th>1</th>
-    <th>17130179</th>
-	<th>Ngô Minh Quang</th>
-    <th>Viết cách tạo tên miền .tk</th>
-	<th><a href="sources/azure/minhquang.docx">Download</a></th>
-	<th></th>
-  </tr >
-  <tr style="font-size:12px;">
-    <th>2</th>
-    <th>17130193</th>
-	<th>Nguyễn Hồng Sơn</th>
-    <th>Viết cách up file vô Github</th>
-	<th><a href="sources/azure/hongson.docx">Download</a></th>
-	<th></th>
-  </tr>
-  <tr style="font-size:12px;">
-    <th>3</th>
-    <th>17130184</th>
-	<th>Võ Thành Quý</th>
-    <th>Viết cách đăng ký, đăng nhập vào Github</th>
-	<th><a href="sources/azure/thanhquy.docx">Download</a></th>
-	<th></th>
-  </tr>
-  <tr style="font-size:12px;">
-    <th>4</th>
-    <th>17130058</th>
-	<th>Trương Thị Mỹ Hảo</th>
-    <th>Viết cách tạo và xóa Repository, gán tên miền</th>
-	<th><a href="sources/azure/myhao.docx">Download</a></th>
-	<th></th>
-  </tr>
-  <tr style="font-size:12px;">
-    <th>5</th>
-    <th>17130082</th>
-	<th>Lê Thị Diệu Hương</th>
-    <th>Giới thiệu sơ bộ về Github, cách cài đặt Github Desktop</th>
-	<th><a href="sources/azure/dieuhuong.docx">Download</a></th>
-	<th></th>
-  </tr>
-</table>
-  
-</div>
+	              <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Week 2</a>
 
-<div id="Week 2" class="tabcontent">
-  No content
-</div>
+	              <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Week 3</a>
 
-<div id="Week 3" class="tabcontent">
-  No content
-</div>
+	              <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Week 4</a>
 
-<div id="Week 4" class="tabcontent">
-  No content
-</div>
+	              <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Week 5</a>
 
-<div id="Week 5" class="tabcontent">
-  No content
-</div>
+	              <a class="nav-link ftco-animate" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false">Week 6</a>
 
-<div id="Week 6" class="tabcontent">
-  No content
-</div>
+	            </div>
+	          </div>
+	          <div class="col-md-12 tab-wrap">
+	            
+	            <div class="tab-content" id="v-pills-tabContent">
 
-</div>
-         
+	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
+					<div id="Week 1" class="tabcontent">
+						<!-- Table -->
+						<p style="text-align:center;"> Writting how to use Github</p>
+						<table style="width:100%">
+						  <tr style="font-size:15px;color:white;background-color: rgb(185, 169, 124);text-align:center;">
+							<th>STT</th>
+							<th>MSSV</th>
+							<th>Họ tên</th>
+							<th>Công việc được giao</th>
+							<th>Kết quả</th>
+							<th>Tiến độ</th>
+						  </tr>
+						  <tr style="font-size:12px;">
+							<th>1</th>
+							<th>17130179</th>
+							<th>Ngô Minh Quang</th>
+							<th>Viết cách tạo tên miền .tk</th>
+							<th><a href="sources/How to use Github/minhquang.docx">Download</a></th>
+							<th>100%</th>
+						  </tr >
+						  <tr style="font-size:12px;">
+							<th>2</th>
+							<th>17130193</th>
+							<th>Nguyễn Hồng Sơn</th>
+							<th>Viết cách up file vô Github</th>
+							<th><a href="sources/How to use Github/hongson.docx">Download</a></th>
+							<th>100%</th>
+						  </tr>
+						  <tr style="font-size:12px;">
+							<th>3</th>
+							<th>17130184</th>
+							<th>Võ Thành Quý</th>
+							<th>Viết cách đăng ký, đăng nhập vào Github</th>
+							<th><a href="sources/How to use Github/thanhquy.docx">Download</a></th>
+							<th>90%</th>
+						  </tr>
+						  <tr style="font-size:12px;">
+							<th>4</th>
+							<th>17130058</th>
+							<th>Trương Thị Mỹ Hảo</th>
+							<th>Viết cách tạo và xóa Repository, gán tên miền</th>
+							<th><a href="sources/How to use Github/myhao.docx">Download</a></th>
+							<th>100%</th>
+						  </tr>
+						  <tr style="font-size:12px;">
+							<th>5</th>
+							<th>17130082</th>
+							<th>Lê Thị Diệu Hương</th>
+							<th>Giới thiệu sơ bộ về Github, cách cài đặt Github Desktop</th>
+							<th><a href="sources/How to use Github/dieuhuong.docx">Download</a></th>
+							<th>100%</th>
+						  </tr>
+						</table>
+						<br/>
+						
+						</div>
+	              </div>
 
-		 
-            <div class="pt-5 mt-5">
-                                        
-              <div class="comment-form-wrap pt-5">
-                <h3 class="mb-5 h4 font-weight-bold p-4 bg-light">Leave a comment</h3>
-                <form action="#" class="p-4 p-md-5 bg-light">
-                  <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" class="form-control" id="name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" class="form-control" id="email">
-                  </div>
-                  <div class="form-group">
-                    <label for="website">Website</label>
-                    <input type="url" class="form-control" id="website">
-                  </div>
+	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
+					<div id="Week 2" class="tabcontent">
+						<!-- Table -->
+					   <p style="text-align:center;">Assignment of work</p>
+					   <table style="width:100%">
+						 <tr style="font-size:15px;color:white;background-color: rgb(185, 169, 124);text-align:center;">
+						   <th>STT</th>
+						   <th>MSSV</th>
+						   <th>Họ tên</th>
+						   <th>Công việc được giao</th>
+						   <th>Kết quả</th>
+						   <th>Tiến độ</th>
+						 </tr>
+						 <tr style="font-size:12px;">
+						   <th>1</th>
+						   <th>17130179</th>
+						   <th>Ngô Minh Quang</th>
+						   <th>Yêu cầu chức năng: Tổ bộ môn, kế hoạch</th>
+						   <th>Hoàn thành</th>
+						   <th>100%</th>
+						 </tr >
+						 <tr style="font-size:12px;">
+						   <th>2</th>
+						   <th>17130193</th>
+						   <th>Nguyễn Hồng Sơn</th>
+						   <th>Yêu cầu chức năng: Thông báo</th>
+						   <th>Hoàn thành</th>
+						   <th>100%</th>
+						 </tr>
+						 <tr style="font-size:12px;">
+						   <th>3</th>
+						   <th>17130184</th>
+						   <th>Võ Thành Quý</th>
+						   <th>Yêu cầu chức năng: Trang chủ</th>
+						   <th>Hoàn thành</th>
+						   <th>100%</th>
+						 </tr>
+						 <tr style="font-size:12px;">
+						   <th>4</th>
+						   <th>17130058</th>
+						   <th>Trương Thị Mỹ Hảo</th>
+						   <th>Yêu cầu chức năng: Giới thiệu</th>
+						   <th>Hoàn thành</th>
+						   <th>100%</th>
+						 </tr>
+						 <tr style="font-size:12px;">
+						   <th>5</th>
+						   <th>17130082</th>
+						   <th>Lê Thị Diệu Hương</th>
+						   <th>Yêu cầu chức năng: Môn học, liên hệ</th>
+						   <th>Hoàn thành</th>
+						   <th>100%</th>
+						 </tr>
+					   </table>
+					   <br/>
+					   <!-- Adding the photos of my group -->
+					   <p style="text-align:center;">The images of group</p>
+					   <div style="text-align: center"><img src="images/photos group/Week 1_6.jpg" width="400px" height="600px" style="padding: 20px"/>
+					   <br/>
+					   <img src="images/photos group/Week 1_2.jpg" width="600px" height="400px" style="padding: 20px"/>
+					   <br/>
+					   <img src="images/photos group/Week 1_5.jpg" width="600px" height="400px" style="padding: 20px"/>
+					   <br/>
+					   <img src="images/photos group/Week 1_2.jpg" width="600px" height="400px" style="padding: 20px"/>
+					   <br/>
+					   <img src="images/photos group/Week 1_7.jpeg" width="600px" height="400px" style="padding: 20px"/>
+					   <br/></div>
+					   </div>
+	              </div>
 
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
-                  </div>
+	              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
+	              	No Content
+	              </div>
 
-                </form>
-              </div>
-            </div>
-          </div> <!-- .col-md-8 -->
+	              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
+					No Content
+	              </div>
 
-          <div class="col-lg-4 sidebar ftco-animate">
-            <div class="sidebar-box">
-              <form action="#" class="search-form">
-                <div class="form-group">
-                  <span class="icon icon-search"></span>
-                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-                </div>
-              </form>
-            </div>
-            <div class="sidebar-box ftco-animate">
-            	<h3>Category</h3>
-              <ul class="categories">
-                <li><a href="#">Breakfast <span>(6)</span></a></li>
-                <li><a href="#">Lunch <span>(8)</span></a></li>
-                <li><a href="#">Dinner <span>(2)</span></a></li>
-                <li><a href="#">Desserts <span>(2)</span></a></li>
-                <li><a href="#">Drinks <span>(2)</span></a></li>
-                <li><a href="#">Wine <span>(2)</span></a></li>
-              </ul>
-            </div>
+	              <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-day-5-tab">
+					No Content
+	              </div>
 
-            <div class="sidebar-box ftco-animate">
-              <h3>Popular Articles</h3>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> June 25, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> June 25, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> June 25, 2019</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-              <h3>Tag Cloud</h3>
-              <ul class="tagcloud m-0 p-0">
-                <a href="#" class="tag-cloud-link">Dish</a>
-                <a href="#" class="tag-cloud-link">Food</a>
-                <a href="#" class="tag-cloud-link">Lunch</a>
-                <a href="#" class="tag-cloud-link">Menu</a>
-                <a href="#" class="tag-cloud-link">Dessert</a>
-                <a href="#" class="tag-cloud-link">Drinks</a>
-                <a href="#" class="tag-cloud-link">Sweets</a>
-              </ul>
-            </div>
-
-            <div class="sidebar-box ftco-animate">
-            	<h3>Archives</h3>
-              <ul class="categories">
-              	<li><a href="#">January 2019 <span>(20)</span></a></li>
-              	<li><a href="#">December 2018 <span>(30)</span></a></li>
-              	<li><a href="#">Novemmber 2018 <span>(20)</span></a></li>
-                <li><a href="#">September 2018 <span>(6)</span></a></li>
-                <li><a href="#">August 2018 <span>(8)</span></a></li>
-              </ul>
-            </div>
-
-
-            <div class="sidebar-box ftco-animate">
-              <h3>Paragraph</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
-            </div>
-          </div><!-- END COL -->
+	              <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-day-6-tab">
+					No Content
+	              </div>
+	            </div>
+	          </div>
+	        </div>
         </div>
-			</div>
-		</section>
+    	</div>
+    </section>
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Feliciano</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Open Hours</h2>
-              <ul class="list-unstyled open-hours">
-                <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
-                <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
-                <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
-                <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Instagram</h2>
-              <div class="thumb d-sm-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
-	            	</a>
-	            </div>
-	            <div class="thumb d-flex">
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
-	            	</a>
-	            	<a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
-	            	</a>
-	            </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Newsletter</h2>
-            	<p>Far far away, behind the word mountains, far from the countries.</p>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-md-6 col-lg-3">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Message</h2>
+				<p>Friendship is not the way you forget but the way you forgive, not the way you listen but the way you understand, not what you see but how you feel, and not the way you from It is the way you keep it.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+				  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Our daily routine</h2>
+				<ul class="list-unstyled open-hours">
+				  <li class="d-flex"><span>Monday</span><span>7:00 - 17:00</span></li>
+				  <li class="d-flex"><span>Tuesday</span><span>7:00 - 17:00</span></li>
+				  <li class="d-flex"><span>Wednesday</span><span>9:00 - 15:00</span></li>
+				  <li class="d-flex"><span>Thursday</span><span>12:00 - 21:00</span></li>
+				  <li class="d-flex"><span>Friday</span><span>18:00 - 24:00</span></li>
+				  <li class="d-flex"><span>Saturday</span><span>7:00 - 18:00</span></li>
+				  <li class="d-flex"><span>Sunday</span><span> 7:00 - 24:00</span></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Photo Album</h2>
+				<div class="thumb d-sm-flex">
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+					  </a>
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+					  </a>
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpeg);">
+					  </a>
+				  </div>
+				  <div class="thumb d-flex">
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.png);">
+					  </a>
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+					  </a>
+					  <a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+					  </a>
+				  </div>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">Newsletter</h2>
+				  <p>Far far away, behind the word mountains, far from the countries.</p>
+				<form action="#" class="subscribe-form">
+				  <div class="form-group">
+					<input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+					<input type="submit" value="Subscribe" class="form-control submit px-3">
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
   
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/jsmenutab.js"></script>
-    
-  </body>
-</html>
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://www.facebook.com/minhquang.ngo.9809" target="_blank">NgoMinhQuang</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	
+  
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
+  
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+	  
+	</body>
+  </html>
