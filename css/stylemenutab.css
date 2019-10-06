@@ -1,0 +1,41 @@
+div#menuexcersice{
+	padding: 20px 0px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: rgb(198, 212, 183);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: rgb(198, 168, 64);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(120, 120, 120);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;  /* đây là chỗ hiển thị hoặc ẩn nội dung */
+  padding: 6px 12px;
+  margin: 0px 0px;
+  border-top: none;
+  background-color: white;
+}
