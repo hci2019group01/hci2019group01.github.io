@@ -270,7 +270,7 @@ p {
 }
 
 .judge {
-    color: orangered !important;
+    color: #D2691E !important;
 }
 .why-choose-us-content .chosse-us-icon img {
     padding: 4%;
@@ -336,17 +336,17 @@ p {
     margin-left: -14%;
 }
 .why-choose-us-content:hover, .why-choose-us-content:focus {
-    -webkit-box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
-    -moz-box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
-    box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
+    -webkit-box-shadow: -2px 2px 37px -5px #D2691E;
+    -moz-box-shadow: -2px 2px 37px -5px #D2691E;
+    box-shadow: -2px 2px 37px -5px #D2691E;
 }
 .why-choose-us-content:hover .chosse-us-icon img, .why-choose-us-content:focus .chosse-us-icon img {
     border: 7px #FC907F solid;
 }
 .why-choose-us-content1:hover, .why-choose-us-content1:focus {
-    -webkit-box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
-    -moz-box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
-    box-shadow: -2px 2px 37px -5px rgba(252,96,96,1);
+    -webkit-box-shadow: -2px 2px 37px -5px #D2691E;
+    -moz-box-shadow: -2px 2px 37px -5px #D2691E;
+    box-shadow: -2px 2px 37px -5px #D2691E;
 }
 .why-choose-us-content1:hover .chosse-us-icon img, .why-choose-us-content1:focus .chosse-us-icon img {
     border: 7px #FC907F solid;
